@@ -1,0 +1,97 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="App5.StartHere"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App5"
+    xmlns:common="using:App5.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}" Background="#FF040B30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="149*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Margin="0,10,0,3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='1' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="TO BEGIN WITH" Style="{StaticResource PageHeaderTextStyle}" FontSize="72" Margin="39,0,-52,21" Height="82" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontWeight="ExtraBold"/>
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="58,10,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="564" Width="1262" Foreground="#FFEEF0F8" Grid.RowSpan="2">
+        	<Run FontWeight="Bold" FontStyle="Italic" FontSize="24" FontFamily="Andalus" Text="A hasta mudra is a gesture or positioning of the hands to channel energy in the body. Mudras come from the over three thousand-year old tradition of yoga originating in India. Hasta means 'hand' in Sanskrit and 'mudra' comes from the Sanskrit word 'mud', meaning to delight. A mudra is a seal, as in sealing your connection with the Divine or sealing energy in the body."/>
+        	<LineBreak FontWeight="Bold" FontStyle="Italic" FontSize="24" FontFamily="Andalus"/>
+        	<Run FontWeight="Bold" FontStyle="Italic" FontSize="24" FontFamily="Andalus" Text="&quot;Hasta Mudra&quot; is a kind of science followed by people of Ancient India. Its description is mentioned in Rig-Veda ,literatures of Jainism and "/>
+        	<Run FontWeight="Bold" FontStyle="Italic" FontSize="24" FontFamily="Andalus" Text="Buddhism. It has been witnessed to be very effective when practiced accordingly."/>
+        	<LineBreak/>
+        	<Run FontWeight="Bold" FontStyle="Italic" FontSize="24" FontFamily="Andalus"/>
+        	<LineBreak/>
+        	<Run FontWeight="Bold" FontSize="24" FontFamily="Andalus" Text="TO BEGIN WITH-"/>
+        	<LineBreak/>
+        	<Run FontWeight="Bold" FontSize="24" FontFamily="Andalus" Text="Every group consists of certain gestures with an image. The image describes how to realize the gesture. In image the gesture is done with Right hand. In practice we must perform the gesture with both hands."/>
+        	<LineBreak/>
+        	<Run FontWeight="Bold" FontSize="24" FontFamily="Andalus" Text="Every gesture/mudra includes four fields "/>
+        	<LineBreak/>
+        	<Run FontWeight="Bold" FontSize="24" FontFamily="Andalus" Text="&#x9;&#x9;&#x9;&#x9;POSITION : This indicates the sitting posture while practicing the mudra.(Refer Group4, it has description &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;about necessary sitting postures.)"/>
+        	<LineBreak/>
+        	<Run FontWeight="Bold" FontSize="24" FontFamily="Andalus" Text="&#x9;&#x9;&#x9;&#x9;DURATION : This indicates the time duration expected to practice the mudra during one instance"/>
+        	<LineBreak/>
+        	<Run FontWeight="Bold" FontSize="24" FontFamily="Andalus" Text="&#x9;&#x9;&#x9;&#x9;PERIOD: This indicates the time period the mudra has to be practiced to witness effective results."/>
+        	<LineBreak/>
+        	<Run FontWeight="Bold" FontSize="24" FontFamily="Andalus" Text="&#x9;&#x9;&#x9;&#x9;EFFECTS: This indicates the possible cure from practicing the mudra for prescribed duration and period.&#x9;&#x9;"/>
+        	<LineBreak/>
+        	<Run FontWeight="Bold" FontSize="24" FontFamily="Andalus" Text="&#x9;&#x9;&#x9;&#x9;"/>
+        	<LineBreak/>
+        </TextBlock>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>
+

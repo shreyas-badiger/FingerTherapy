@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SHREYAS</Machine>
+    <WindowsUser>Shreyas-Pc</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>5213AB7575FF467CBB8927DA610EAA6200476A7661E608442DC57598525FDF49</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>2238appbuilderz.FingerTherapy_1.0.0.8_neutral__6yh9652fa4het</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>2238appbuilderz.FingerTherapy_6yh9652fa4het!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>2238appbuilderz.FingerTherapy</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=24AAF504-2344-44DE-9EC1-A4A61C47AD3D</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.8</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-28T05:46:05.389</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\bin\Release\App5.exe">
+      <PackagePath>App5.exe</PackagePath>
+      <Modified>2013-12-28T05:46:05.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\bin\Release\App5.pdb">
+      <PackagePath>App5.pdb</PackagePath>
+      <Modified>2013-12-28T05:46:05.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP1\APAANA.jpg">
+      <PackagePath>Assets\GROUP1\APAANA.jpg</PackagePath>
+      <Modified>2013-12-23T17:59:52.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP1\JNANA.jpg">
+      <PackagePath>Assets\GROUP1\JNANA.jpg</PackagePath>
+      <Modified>2013-12-23T17:59:54.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP1\PRANA.jpg">
+      <PackagePath>Assets\GROUP1\PRANA.jpg</PackagePath>
+      <Modified>2013-12-23T17:59:54.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP1\UDANA.jpg">
+      <PackagePath>Assets\GROUP1\UDANA.jpg</PackagePath>
+      <Modified>2013-12-23T17:59:54.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP1\VAYU.jpg">
+      <PackagePath>Assets\GROUP1\VAYU.jpg</PackagePath>
+      <Modified>2013-12-23T17:59:54.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP2\PARIVARTHANA.jpg">
+      <PackagePath>Assets\GROUP2\PARIVARTHANA.jpg</PackagePath>
+      <Modified>2013-12-23T18:07:19.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP2\PRITHVI.jpg">
+      <PackagePath>Assets\GROUP2\PRITHVI.jpg</PackagePath>
+      <Modified>2013-12-23T18:20:10.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP2\SANJEEVINI.jpg">
+      <PackagePath>Assets\GROUP2\SANJEEVINI.jpg</PackagePath>
+      <Modified>2013-12-23T18:20:10.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP2\SHOONYA.jpg">
+      <PackagePath>Assets\GROUP2\SHOONYA.jpg</PackagePath>
+      <Modified>2013-12-23T18:20:10.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP2\SOORYA.jpg">
+      <PackagePath>Assets\GROUP2\SOORYA.jpg</PackagePath>
+      <Modified>2013-12-23T18:20:10.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP3\AKASHA.jpg">
+      <PackagePath>Assets\GROUP3\AKASHA.jpg</PackagePath>
+      <Modified>2013-12-23T18:37:23.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP3\BANDOOKU.jpg">
+      <PackagePath>Assets\GROUP3\BANDOOKU.jpg</PackagePath>
+      <Modified>2013-12-23T18:37:23.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP3\JALA.jpg">
+      <PackagePath>Assets\GROUP3\JALA.jpg</PackagePath>
+      <Modified>2013-12-23T18:37:23.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP3\SHANKA.jpg">
+      <PackagePath>Assets\GROUP3\SHANKA.jpg</PackagePath>
+      <Modified>2013-12-23T18:37:23.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP3\SHANTA.jpg">
+      <PackagePath>Assets\GROUP3\SHANTA.jpg</PackagePath>
+      <Modified>2013-12-23T18:37:23.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP4\ARDHAPADMASANA.jpg">
+      <PackagePath>Assets\GROUP4\ARDHAPADMASANA.jpg</PackagePath>
+      <Modified>2013-12-23T19:20:31.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP4\PADMASANA.jpg">
+      <PackagePath>Assets\GROUP4\PADMASANA.jpg</PackagePath>
+      <Modified>2013-12-23T19:12:27.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\GROUP4\VAJRASANA.jpg">
+      <PackagePath>Assets\GROUP4\VAJRASANA.jpg</PackagePath>
+      <Modified>2013-12-23T19:22:52.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\MAINPAGE\1.png">
+      <PackagePath>Assets\MAINPAGE\1.png</PackagePath>
+      <Modified>2013-12-25T09:44:50.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\MAINPAGE\2.png">
+      <PackagePath>Assets\MAINPAGE\2.png</PackagePath>
+      <Modified>2013-12-25T09:42:36.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\MAINPAGE\3.png">
+      <PackagePath>Assets\MAINPAGE\3.png</PackagePath>
+      <Modified>2013-12-25T09:46:48.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\MAINPAGE\4.png">
+      <PackagePath>Assets\MAINPAGE\4.png</PackagePath>
+      <Modified>2013-12-25T09:45:34.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-24T08:09:50.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-24T08:07:23.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-25T07:40:37.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-25T07:41:51.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-24T08:09:30.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\bin\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-12-15T17:16:42.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\bin\Release\StartHere.xaml">
+      <PackagePath>StartHere.xaml</PackagePath>
+      <Modified>2013-12-27T13:56:16.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\bin\Release\ContactUs.xaml">
+      <PackagePath>ContactUs.xaml</PackagePath>
+      <Modified>2013-12-27T13:57:29.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\bin\Release\AboutUs.xaml">
+      <PackagePath>AboutUs.xaml</PackagePath>
+      <Modified>2013-12-27T13:58:00.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\bin\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2013-12-17T18:45:14.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\bin\Release\ItemsPage.xaml">
+      <PackagePath>ItemsPage.xaml</PackagePath>
+      <Modified>2013-12-28T05:45:27.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\bin\Release\SplitPage.xaml">
+      <PackagePath>SplitPage.xaml</PackagePath>
+      <Modified>2013-12-16T21:34:44.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Shreyas-Pc\Documents\Visual Studio 2012\Projects\App5\App5\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-12-27T14:05:02.217</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
